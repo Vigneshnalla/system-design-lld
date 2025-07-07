@@ -1,0 +1,60 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Build directories ===
+/target/
+/build/
+/out/
+
+# === Maven ===
+.mvn/
+!**/src/main/**/application.properties
+!**/src/main/**/application.yml
+pom.xml.versionsBackup
+
+# === Gradle ===
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+*.project
+*.classpath
+*.settings/
+
+# VS Code
+.vscode/
+
+# === Logs and temp files ===
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# === OS-specific ===
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Tests ===
+test-output/
+surefire-reports/
+*.test
+
+# === Others ===
+*.env
+*.bak
+*.old
